@@ -1,0 +1,16 @@
+{
+  // See http://go.microsoft.com/fwlink/?LinkId=827846
+  // for the documentation about the extensions.json format
+  "recommendations": [
+    "wk-j.save-and-run",
+    "graphql.vscode-graphql",
+    "prisma.prisma",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "streetsidesoftware.code-spell-checker",
+    "streetsidesoftware.code-spell-checker-french",
+    "aaron-bond.better-comments",
+    "formulahendry.auto-rename-tag",
+    "yoavbls.pretty-ts-errors"
+  ]
+}

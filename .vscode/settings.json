@@ -1,0 +1,95 @@
+{
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }],
+  "eslint.workingDirectories": [
+    { "pattern": "apps/*/" },
+    { "pattern": "packages/*/" },
+    { "pattern": "tooling/*/" }
+  ],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "saveAndRun": {
+    "commands": [
+      // {
+      //   "match": "schema.prisma",
+      //   "cmd": "yarn prisma:db push",
+      //   "silent": false
+      // },
+      {
+        "match": "src/graphql/*",
+        "cmd": "pnpm generate"
+      }
+    ]
+  },
+  "cSpell.language": "en, fr",
+  "cSpell.words": [
+    "cobeia",
+    "fkey",
+    "jiti",
+    "lusitana",
+    "Lusitana",
+    "luxon",
+    "nuqs",
+    "onest",
+    "Onest",
+    "tiktok",
+    "tsbuildinfo",
+    "tseslint",
+    "upsert",
+    "Upsert"
+  ],
+  "cSpell.enabledLanguageIds": [
+    "asciidoc",
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "git-commit",
+    "go",
+    "handlebars",
+    "html",
+    "jade",
+    "java",
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "latex",
+    "less",
+    "markdown",
+    "php",
+    "plaintext",
+    "pug",
+    "python",
+    "restructuredtext",
+    "rust",
+    "scala",
+    "scss",
+    "text",
+    "typescript",
+    "typescriptreact",
+    "yaml",
+    "yml"
+  ],
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  }
+}
